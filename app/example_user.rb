@@ -1,7 +1,7 @@
 class User
 	attr_accessor :name, :email
 
-	def init(attribute = {})
+	def initialize(attribute = {})
 		@name = attribute[:name]
 		@email = attribute[:email]
 	end
